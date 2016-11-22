@@ -39,6 +39,7 @@ class Bar:
         #TODO
         return 10
 
+
 f = Foo()
 b = Bar()
 
