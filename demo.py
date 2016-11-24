@@ -16,6 +16,8 @@ class Derived(Abstract):
 a  = Derived()
 a.foo()
 
+
+
 def upgrade_players():
     #TODO: update all players in the list l
     pass
@@ -24,10 +26,14 @@ def update_enemies():
     # TODO: update all enemies in the list l
     pass
 
+
+
 #Option1 creating an empty function
 class Foo:
     # TODO:
     pass
+
+
 
 #Option2
 class Bar:
