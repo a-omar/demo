@@ -1,10 +1,10 @@
 from unittest import TestCase
-from demo import Bar
+from demo.demo import Bar
 
 class TestBar(TestCase):
     def test_get_players(self):
         b = Bar()
-        self.assertEquals(b.get_players(),10)
+        self.assertEquals(b.get_players(), 10)
 
 
 if __name__ == '__main__':
