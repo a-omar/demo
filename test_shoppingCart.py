@@ -1,6 +1,6 @@
 from unittest import TestCase
 from unittest.mock import MagicMock, patch
-from demo.continuous_delivery import ShoppingCart, Database
+from continuous_delivery import ShoppingCart, Database
 
 cart = ShoppingCart()
 
