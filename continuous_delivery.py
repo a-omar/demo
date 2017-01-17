@@ -4,7 +4,7 @@ import pprint
 
 class Database:
     def __init__(self):
-        self.conn_string = "host='localhost' dbname='postgres' user='omara' password='postgres'"
+        self.conn_string = "host='localhost' dbname='postgres' user='postgres' password='postgres'"
 
     def query(self, query_string):
 
